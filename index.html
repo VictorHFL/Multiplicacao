@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Tabela de Multiplicação</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        table td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+            text-align: center;
+            font-size: 18px;
+        }
+
+        input[type="number"] {
+            padding: 10px;
+            font-size: 18px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            width: 100%;
+        }
+
+        button {
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+            margin-top: 10px;
+            font-size: 18px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Gerador de Tabela de Multiplicação</h1>
+        <input type="number" id="numero" placeholder="Digite um número">
+        <button onclick="gerarTabela()">Gerar Tabela</button>
+        <div id="tabela"></div>
+    </div>
+    <script>
+        function gerarTabela() {
+            const numero = document.getElementById('numero').value;
+            const tabela = document.createElement('table');
+
+            for (let i = 1; i <= 20; i++) {
+                const linha = tabela.insertRow();
+                const coluna = linha.insertCell(0);
+                coluna.innerHTML = `${numero} x ${i} = ${numero * i}`;
+            }
+
+            const divTabela = document.getElementById('tabela');
+            divTabela.innerHTML = '';
+            divTabela.appendChild(tabela);
+        }
+    </script>
+</body>
+</html>
