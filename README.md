@@ -1,4 +1,4 @@
-# Multiplicacao
+# ✖️ Multiplicacao
 
 Gerador de tabuada interativa de 1 a 20 com HTML, CSS e JavaScript.
 
@@ -7,7 +7,7 @@ Gerador de tabuada interativa de 1 a 20 com HTML, CSS e JavaScript.
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-## Sumário
+## 📑 Sumário
 
 - [Sobre](#sobre)
 - [Funcionalidades](#funcionalidades)
@@ -18,23 +18,23 @@ Gerador de tabuada interativa de 1 a 20 com HTML, CSS e JavaScript.
 - [Licença](#licença)
 - [Autor](#autor)
 
-## Sobre
+## 📖 Sobre
 
 Aplicação web simples: o usuário digita um número e gera a tabuada correspondente, renderizada dinamicamente via DOM.
 
-## Funcionalidades
+## ✨ Funcionalidades
 
 - Campo numérico com validação básica
 - Botão "Gerar Tabela"
 - Tabela de 1 a 20 com estilo responsivo
 
-## Tecnologias
+## 🛠️ Tecnologias
 
 - HTML5
 - CSS3 (centralizado, cards, responsivo)
 - JavaScript (criação dinâmica de `<table>`)
 
-## Como executar
+## 🚀 Como executar
 
 ```bash
 git clone https://github.com/VictorHFL/Multiplicacao.git
@@ -42,7 +42,7 @@ cd Multiplicacao
 # abra index.html no navegador
 ```
 
-## Estrutura
+## 📁 Estrutura
 
 ```text
 Multiplicacao/
@@ -51,7 +51,7 @@ Multiplicacao/
 └── README.md
 ```
 
-## Como funciona o código
+## ⚙️ Como funciona o código
 
 ```javascript
 function gerarTabela() {
@@ -73,11 +73,11 @@ function gerarTabela() {
 > [!NOTE]
 > O CSS está embutido no `<style>` do `index.html`; `style.css` é um extra opcional.
 
-## Licença
+## 📄 Licença
 
 Distribuído sob a licença MIT. Veja [LICENSE](LICENSE) para detalhes.
 
-## Autor
+## 👤 Autor
 
 **VictorHFL**
 
