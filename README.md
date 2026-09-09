@@ -16,7 +16,6 @@ Gerador de tabuada interativa de 1 a 20 com HTML, CSS e JavaScript.
 - [Estrutura](#estrutura)
 - [Como funciona o código](#como-funciona-o-código)
 - [Licença](#licença)
-- [Autor](#autor)
 
 ## 📖 Sobre
 
@@ -77,9 +76,3 @@ function gerarTabela() {
 
 Distribuído sob a licença MIT. Veja [LICENSE](LICENSE) para detalhes.
 
-## 👤 Autor
-
-**VictorHFL**
-
-- GitHub: [@VictorHFL](https://github.com/VictorHFL)
-- E-mail: yvictorhfl@gmail.com
